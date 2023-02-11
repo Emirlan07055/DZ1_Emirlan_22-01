@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 730px;
+    background: black;
+    margin: 100px auto;
+    height: 250px;
+    padding: 20px 0 0;
+}
+.center,span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+input{
+    padding: 10px 100px 10px 10px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+button{
+    margin-left: 10px;
+}
+span {
+    margin-left: 10px;
+}
+
+/************************/
+
+.box{
+    margin: 50px auto;
+    position: relative;
+    border: 1px solid white;
+    width: 500px;
+    height: 50px;
+}
+.block{
+    position: absolute;
+    width: 46px;
+    height: 47px;
+    border-radius: 50%;
+    background: white;
+
+}
+#button{
+    margin: -1px 0 0 510px;
+    height: 51px;
+    width: 50px;
+}
